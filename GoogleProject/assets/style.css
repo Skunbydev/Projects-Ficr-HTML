@@ -1,0 +1,64 @@
+  * {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+ 
+ .menu1   {
+   float: right;
+   width: 100px;
+   height: 100px;
+   font-size: 13px;
+   padding: 10px;
+ }
+
+  .menu2  {
+    float: right;
+    width: 25px;
+    height: 100px;
+    font-size: 13px;
+    padding: 10px;
+  }
+
+
+
+    /* ajeitar amanha 
+   .menu3 {
+    float: right;
+    width: -800px;
+    height:0px;
+   }
+
+    */ 
+    .GoogleCenter {
+        text-align: center;
+        padding-top: 240px;
+    }
+
+
+    .SearchBar {
+        display: flex;
+        justify-content: center;
+        padding: 30px;
+        
+    }
+            /* IMPLEMENTAR AMANHÃ 
+    .SearchBar  input[type="text"] { 
+       
+            padding: 10px;
+            border: none;
+            font-size: 16px;
+            width: 500px;
+          }
+          */ 
+          
+              
+          a:link, a:visited {
+            text-decoration: none;
+            color: rgba(0,0,0,.87);
+          } 
+           
+         
+            a:hover { 
+            text-decoration: underline;
+          } 
+                               
+         
