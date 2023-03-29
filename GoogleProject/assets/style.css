@@ -1,64 +1,83 @@
   * {
     font-family: Arial, Helvetica, sans-serif;
-  }
- 
- .menu1   {
-   float: right;
-   width: 100px;
-   height: 100px;
-   font-size: 13px;
-   padding: 10px;
- }
 
-  .menu2  {
+  }
+
+  .menu1 {
     float: right;
-    width: 25px;
-    height: 100px;
     font-size: 13px;
-    padding: 10px;
+    padding: 12px;
+
+  }
+
+  .menu1 a {
+    display: inline-block;
+    background-color: rgb(26, 115, 232);
+    font-size: 13px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white !important;
+
+
+  }
+
+  .menu2 {
+    float: right;
+    padding: 22px;
+    font-size: 13px;
+    width: 30px;
+  }
+
+  .menu3 {
+    float: right;
+    padding: 22px;
+    font-size: 13px;
+    width: 15px;
+  }
+
+  .GoogleCenter {
+    text-align: center;
+    padding-top: 240px;
+  }
+
+
+  .SearchBar {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+  }
+
+  .SearchBar Input {
+    width: 500px;
+    height: 30px;
+    border-radius: 15px;
+    border: 1px solid #dcdcdc;
+    box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+  .SearchBar button {
+    display: block;
+    margin-top: 20px;
+    margin-left: 90px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: solid 1px gray;
   }
 
 
 
-    /* ajeitar amanha 
-   .menu3 {
-    float: right;
-    width: -800px;
-    height:0px;
-   }
-
-    */ 
-    .GoogleCenter {
-        text-align: center;
-        padding-top: 240px;
-    }
 
 
-    .SearchBar {
-        display: flex;
-        justify-content: center;
-        padding: 30px;
-        
-    }
-            /* IMPLEMENTAR AMANHÃ 
-    .SearchBar  input[type="text"] { 
-       
-            padding: 10px;
-            border: none;
-            font-size: 16px;
-            width: 500px;
-          }
-          */ 
-          
-              
-          a:link, a:visited {
-            text-decoration: none;
-            color: rgba(0,0,0,.87);
-          } 
-           
-         
-            a:hover { 
-            text-decoration: underline;
-          } 
-                               
-         
+  a:link,
+  a:visited {
+    text-decoration: none;
+    color: rgba(0, 0, 0, .87);
+  }
+
+
+  a:hover {
+    text-decoration: underline;
+  }
