@@ -1,0 +1,407 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: #D4D3D3;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+.main-background {
+    width: 100%;
+    height: 120px;
+    background-color: #ffff;
+    position: relative;
+    display: block;
+}
+
+.main-top .sun {
+    margin-top: 35px;
+    position: absolute;
+    margin-left: 25px;
+}
+
+.main-top .local {
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 80px;
+
+    font-family: "Nats";
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.main-top .date {
+    position: absolute;
+    margin-top: 65px;
+    margin-left: 80px;
+
+    font-family: "Nats";
+    font-size: 15px;
+    color: #616161;
+}
+
+.main-top .logo {
+    position: absolute;
+    margin-top: 4px;
+    margin-left: 625px;
+}
+
+.main-top .line {
+    position: absolute;
+    margin-top: 90px;
+    height: 2px;
+    background: #D4D3D3;
+    width: 667px;
+}
+
+.main-top .line2 {
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 710px;
+    height: 2px;
+    background: #D4D3D3;
+    width: 650px;
+}
+
+.main-logo .twitter {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 1200px;
+}
+
+.main-logo .instagram {
+    position: absolute;
+    margin: 40px;
+    margin-left: 1250px;
+}
+
+.main-logo .whatssap {
+    position: absolute;
+    margin: 40px;
+    margin-left: 1300px;
+}
+
+.side-bar {
+    width: 100%;
+    height: 60px;
+    background-color: #9A8B8B;
+    display: block;
+    position: relative;
+    margin-top: -16px;
+}
+
+.side-bar a {
+    color: black;
+    height: bold;
+    text-decoration: none;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.side-bar .novelty {
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.side-bar .trends {
+    position: absolute;
+    margin-left: 125px;
+    margin-top: 20px;
+}
+
+.side-bar .categories {
+    position: absolute;
+    margin-left: 225px;
+    margin-top: 20px;
+}
+
+.side-bar .for-your {
+    position: absolute;
+    margin-left: 325px;
+    margin-top: 20px;
+}
+
+.side-bar .search-bar {
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 1020px;
+}
+
+.side-bar .search-bar input {
+    border-radius: 4px;
+    height: 25px;
+    width: 220px;
+    border: 1px solid white;
+    text-align: center;
+    text-indent: 15px;
+    padding-top: 1px;
+}
+
+.side-bar .search-bar .search-icon {
+    position: absolute;
+    margin-top: 8px;
+    margin-left: -215px;
+}
+
+.side-bar .enter-button {
+    position: absolute;
+    margin-top: 14px;
+       margin-left: 1270px;
+}
+
+.side-bar .enter-button button {
+    padding: 8px;
+    height: 30px;
+    text-align: center;
+    background-color: white;
+    border: 1px white;
+    cursor: pointer;}
+
+.mid-content .last-news {
+    margin-left: 20px;
+    font-weight: 300;
+    margin-top: 70px;
+    
+}
+
+ .mid-content .github-line {
+    background-color: #9A8B8B;
+    width: 600px;
+    height: 20px;
+    margin-left: 190px;
+    position: absolute;
+    margin-top: -35px;
+}
+
+.mid-content .github-line .github-text {
+    position: absolute;
+    margin-top: 1px;
+    margin-left: 170px;
+}
+
+.mid-content .mid-comments {
+    position: absolute;
+    margin-top: 0px;
+    font-size: 18px;
+    font-weight: 300;
+    margin-left: 620px;
+    
+}
+
+.mid-line {
+    width: 890px;
+    height: 3px;
+    margin-left: 20px;
+    background-color: #9A8B8B;
+    position: relative;
+    display: block;
+}
+
+.mid-photos .zelda {
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 20px;
+}
+
+.mid-photos .zelda-text1 {
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 200px;
+    color: #000;
+    font-weight: bold;
+}
+
+.mid-photos .zelda-text2 {
+   position: absolute;
+   margin-top: 80px;
+   margin-left: 200px;
+   color: #000;
+   font-weight: bold;
+}
+
+.mid-photos .zelda-text3 {
+  position: absolute;
+  margin-top: 110px;
+  margin-left: 200px;
+  color:  #403939;
+}
+
+.mid-photos .zelda-text4 {
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 200px;
+    color:  #403939;
+  }
+  
+.mid-photos .read-more1 {
+    color: #403939;
+    margin-left: 500px;
+    margin-top: 150px;
+    position: absolute;
+}
+
+.mid-photos .thelast {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 20px;
+}
+
+.mid-photos .thelast-text1 {
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 200px;
+    color: #000;
+    font-weight: bold;
+}
+
+.mid-photos .thelast-text2 {
+    position: absolute;
+    margin-top: 240px;
+    margin-left: 200px;
+    color: #000;
+    font-weight: bold;
+}
+
+.mid-photos .thelast-text3 {
+    position: absolute;
+    margin-top: 270px;
+    margin-left: 200px;
+    color:  #403939;
+}
+
+.mid-photos .thelast-text4 {
+    position: absolute;
+    margin-top: 290px;
+    margin-left: 200px;
+    color:  #403939;
+}
+
+.mid-photos .read-more2 {
+    color: #403939;
+    margin-left: 500px;
+    margin-top: 310px;
+    position: absolute;
+}
+
+
+.vertical-line {
+    width: 2px;
+    height: 400px;
+    background-color: #9A8B8B;
+    position: relative;
+    display: block;
+    margin-top: 5px;
+    margin-left: 620px;
+}
+
+.reviews .opnion-1 {
+    position: absolute;
+    margin-left: 640px;
+    margin-top: -385px;
+}
+
+.reviews .opnion-2 {
+    position: absolute;
+    margin-left: 640px;
+    margin-top: -180px;
+}
+
+.vertical-line2 {
+    width: 2px;
+    height: 410px;
+    background-color: #9A8B8B;
+    position: relative;
+    display: block;
+    margin-top: -410px;
+    margin-left: 970px;
+}
+
+.most-read {
+ position: relative;
+ margin-top: -460px;
+ margin-left: 1100px;
+ font-weight: 550; 
+ text-decoration: underline 3px;
+}
+
+.most-read .supermario {
+    margin-top: 25px;
+    position: absolute;
+    margin-left: -80px;
+}
+
+.most-read .supermario-background {
+    width: 275px;
+    height: 70px;
+    background-color: #9A8B8B;
+    position: absolute;
+    display: block;
+    margin-left: -80px;
+    margin-top: 157px;
+}
+
+.most-read .supermario-background .mario-text1 {
+    font-size: 13px;
+    position: absolute;
+    margin-top: 8px;
+margin-left: 8px;
+    color: #000;
+}
+.most-read .supermario-background .mario-text2 {
+    font-size: 13px;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 8px;
+    color: white;
+}
+
+.most-read .supermario-background .mario-text3 {
+    font-size: 13px;
+    position: absolute;
+    margin-top: 25px;
+    color: #000;
+    margin-left: 116px;
+}
+
+.most-read .supermario-background .mario-text4 {
+    font-size: 13px;
+    position: absolute;
+    margin-top: 45px;
+    color: #000;
+    margin-left: 8px;
+}
+
+.harrypotter .harry {
+    position: absolute;
+    margin-top: 250px;
+    margin-left: -80px;
+}
+
+.harrypotter .harry-background {
+    width: 275px;
+    height: 70px;
+    background-color: #9A8B8B;
+    position: absolute;
+    display: block;
+    margin-left: -80px;
+    margin-top: 360px;
+}
+
+.harrypotter .harry-text1 {
+    display: block;
+    position: absolute;
+    
+}
+
+
+
+
+
+
+
+
