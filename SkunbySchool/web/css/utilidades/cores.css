@@ -1,0 +1,39 @@
+:root {
+    --cor-preta: #000000;
+    --cor-branca: #ffffff;
+    --cor-vermelha: #f00;
+    --cor-cinza: #6b6b6b;
+    --cor-cinza2: #dddddd;
+    --cor-amarela: #FDBA02;
+    --cor-marrom: #332200;
+    
+}
+
+
+.cor-preta {
+    color: #000000;
+}
+
+.cor-branca {
+    color: #ffffff;
+}
+
+.cor-vermelha {
+    color: #f00;
+}
+
+.cor-cinza {
+    color: #6b6b6b;
+}
+
+.cor-cinza {
+    color: #dddddd;
+}
+
+.cor-amarela {
+    color: #FDBA02;
+}
+
+.cor-marrom {
+    color: #332200;
+}

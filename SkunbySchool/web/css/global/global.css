@@ -1,0 +1,14 @@
+body {
+    margin: 0px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #111111;
+}
+
+ul {
+    padding: 0px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}

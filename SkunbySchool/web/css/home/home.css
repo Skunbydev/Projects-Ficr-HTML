@@ -1,0 +1,30 @@
+.mid-content {
+    padding-top: 120px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+}
+
+.mid-content .mid-login {
+    text-align: center;
+    margin-top: 120px;
+    margin-left: 40px;
+    display: inline-block;
+    
+}
+
+.mid-login .login-box input {
+    margin-top: 70px;
+    margin-left: 38px;
+    text-align: center;
+    padding: 20px 102px;
+    border: solid 1px var(--cor-cinza2);
+    border-radius: 50px;
+    background-color: var(--cor-cinza2);
+    display: block;
+    position: relative;
+}
+
+#senha {
+    margin-top: 30px;
+}
