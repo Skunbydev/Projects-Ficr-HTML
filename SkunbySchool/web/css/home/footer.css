@@ -4,6 +4,8 @@
     background-color: var(--cor-preta);
     height: auto;
     margin-top: 20px;
+    padding-top: 60px;
+    padding-bottom: 30px;
 }
 
 
@@ -11,8 +13,7 @@
     color: var(--cor-branca);
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    
 }
 
 .footer-contato {

@@ -40,7 +40,7 @@
 }
 
 
-@media (max-width: 320px) {
+@media (max-width: 820px) {
     .header {
         display: grid;
         grid-template-columns: 1fr;
@@ -50,3 +50,4 @@
         left: 100px;
     }
 }
+
