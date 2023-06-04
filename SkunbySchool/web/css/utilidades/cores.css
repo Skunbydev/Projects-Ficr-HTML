@@ -5,9 +5,12 @@
     --cor-cinza: #6b6b6b;
     --cor-cinza2: #dddddd;
     --cor-amarela: #FDBA02;
+    --cor-amarela2: #E4A30B;
     --cor-marrom: #332200;
     
 }
+
+
 
 
 .cor-preta {
@@ -32,6 +35,10 @@
 
 .cor-amarela {
     color: #FDBA02;
+}
+
+.cor-amarela2 {
+    color: #E4A30B;
 }
 
 .cor-marrom {

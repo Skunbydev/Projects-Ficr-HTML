@@ -1,0 +1,37 @@
+
+
+.footer-bg {
+    background-color: var(--cor-preta);
+    height: auto;
+    margin-top: 20px;
+}
+
+
+.footer {
+    color: var(--cor-branca);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer-contato {
+    margin-top: -20px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+}
+
+
+@media (max-width:800px) {
+    .footer {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    .footer-contato {
+        margin-top: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+}

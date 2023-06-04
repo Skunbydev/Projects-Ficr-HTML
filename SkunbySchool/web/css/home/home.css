@@ -10,8 +10,8 @@
     margin-top: 120px;
     margin-left: 40px;
     display: inline-block;
-    
 }
+
 
 .mid-login .login-box input {
     margin-top: 70px;
@@ -25,6 +25,71 @@
     position: relative;
 }
 
+.mid-login .login-box a {
+    margin: 0 auto;
+}
+
 #senha {
     margin-top: 30px;
+}
+
+
+
+.login-buttons {
+    margin-top: 20px;
+    gap: 40px;
+    display: inline-flex; 
+}
+#entrar, #cadastro {
+    padding: 10px 25px;
+    border-radius: 15px;
+    background-color: var(--cor-amarela);
+    border: solid 1px var(--cor-cinza2);
+    color: var(--cor-marrom);
+    cursor: pointer;
+    text-transform: uppercase;
+    display: inline-block;
+}
+#entrar:hover,
+#cadastro:hover {
+    background-color: var(--cor-amarela2);
+    color: var(--cor-branca);
+}
+
+
+@media (max-width:800px) {
+    .mid-content img {
+        display: none;
+    }
+    .mid-content {
+        grid-template-columns: 1fr;
+    }
+    .mid-content input {
+        display: block;
+    }
+}
+
+
+@media (max-width:320px) {
+    .mid-content img{
+        display: none;
+    }
+    .mid-content .mid-login {
+        margin-top: 0px;
+        margin-left: 0px;
+        display: inline-block;
+    }
+    .mid-content h1 {
+        margin-top: 0px;
+        margin-right: 10px;
+    }
+    .mid-login .login-box input {
+       padding: 10px 52px;
+       margin-left: 5px;
+    }
+    .login-buttons {
+        margin-top: 10px;
+        gap: 20px;
+        display: inline-flex; 
+    }
 }

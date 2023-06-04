@@ -4,9 +4,10 @@
 @import url("./utilidades/Tipografias.css");
 
 /* global */
-@import url("./global/header.css");
 @import url("./global/global.css");
 
 
 /* home */ 
 @import url("./home/home.css");
+@import url("./home/footer.css");
+@import url("./home/header.css");
