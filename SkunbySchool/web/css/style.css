@@ -14,3 +14,6 @@
 
 /* menu */
 @import url("./menu/menu.css");
+
+/* Painel Adm */
+@import url("./painelAdm/alunos.css");

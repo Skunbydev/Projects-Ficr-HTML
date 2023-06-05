@@ -1,8 +1,12 @@
 .font-1-p {
-    font: 400 1.375/1.56 "Roboto Serif", sans-serif; 
+    font: 400 1.375/1.56 'Roboto Serif', sans-serif; 
 }   
 
 .font-1-g {
     font: 400 4rem/1rem "Roboto Serif", sans-serif;
 }
 
+.font-1-pp{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}

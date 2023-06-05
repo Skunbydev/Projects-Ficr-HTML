@@ -1,0 +1,15 @@
+#alunos-body{
+    background-color: var(--cor-cinza);
+}
+
+.alunos-bg {
+    background-color: var(--cor-branca);
+    height: auto;
+    margin-top: 120px;
+    display: flex;
+}
+
+.margin-10px li {
+    margin-bottom: 52px;
+}
+

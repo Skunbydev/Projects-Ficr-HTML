@@ -5,7 +5,7 @@
 
 
 
-.header-principal {    
+.header-principal {
     gap: 30px;
     justify-content: flex-end;
     flex-wrap: wrap;
@@ -19,7 +19,7 @@
     display: inline-block;
 }
 
-.header-principal a:hover{
+.header-principal a:hover {
     color: var(--cor-amarela);
 }
 
@@ -31,6 +31,7 @@
     .header-principal {
         justify-content: center;
     }
+
     #account {
         margin-top: -20px;
     }
@@ -53,61 +54,63 @@
     margin-bottom: 120px;
 }
 
-.conteudo-imagem span{
+.conteudo-imagem span {
     font-size: 80px;
 }
 
 
 
 .conteudo-amarelo {
-    width: 350px; 
+    width: 350px;
     height: 200px;
-    border-radius: 50px; 
+    border-radius: 50px;
     background-color: var(--cor-amarela);
     text-align: center;
     position: relative;
-  }
+}
+
 .conteudo-amarelo a {
-    display: block; 
+    display: block;
     width: 100%;
     height: 100%;
-    position: absolute; 
+    position: absolute;
     top: 0;
     left: 0;
-    text-decoration: none; 
-    color: inherit; 
-  }
-  
-  .conteudo-amarelo:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.conteudo-amarelo:hover {
     background-color: var(--cor-amarela2);
     color: var(--cor-branca);
 }
 
-  .conteudo-preto {
-    width: 350px; 
+.conteudo-preto {
+    width: 350px;
     height: 200px;
-    border-radius: 50px; 
+    border-radius: 50px;
     background-color: var(--cor-preta);
     color: var(--cor-branca);
     text-align: center;
     position: relative;
-  }
+}
 
-  .conteudo-preto a {
-    display: block; 
+.conteudo-preto a {
+    display: block;
     width: 100%;
     height: 100%;
-    position: absolute; 
+    position: absolute;
     top: 0;
     left: 0;
-    text-decoration: none; 
+    text-decoration: none;
     color: inherit;
-  }
-  
-  .conteudo-preto:hover {
+}
+
+.conteudo-preto:hover {
     background-color: var(--cor-preta2);
     color: var(--cor-cinza);
 }
+
 .conteudo-imagem {
     margin-top: 40px;
 }
@@ -122,6 +125,7 @@
         justify-items: center;
         justify-content: center;
     }
+
     .conteudo-secundario-menu {
         grid-template-columns: 1fr;
         justify-items: center;
@@ -133,34 +137,40 @@
     .conteudo-principal {
         margin-top: 5px;
     }
+
     .conteudo-amarelo {
         width: 300px;
         height: 150px;
         border-radius: 25px;
     }
+
     .conteudo-menu {
         margin-top: 60px;
     }
+
     .conteudo-menu span {
         font-size: 60px;
     }
+
     .conteudo-menu h1 {
         font-size: 24px;
     }
+
     .conteudo-preto {
         width: 300px;
         height: 150px;
         border-radius: 25px;
     }
+
     .conteudo-secundario-menu {
         margin-bottom: 60px;
     }
+
     .conteudo-secundario-menu span {
         font-size: 60px;
     }
+
     .conteudo-secundario-menu h1 {
         font-size: 24px;
     }
 }
-
-
