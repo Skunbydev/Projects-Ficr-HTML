@@ -1,0 +1,56 @@
+#nome-nav {
+    text-transform: none;
+}
+
+
+.header-principal img {
+    margin-top: -10px;
+    margin-bottom: auto;
+}
+
+.header-principal {
+    
+    gap: 30px;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    display: inline-flex;
+}
+
+.header-principal a {
+    padding: 16px 0px;
+    position: relative;
+    color: var(--cor-branca);
+    display: inline-block;
+}
+
+.header-principal a:hover{
+    color: var(--cor-amarela);
+}
+
+
+.conteudo-menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.conteudo-alunos {
+    width: 350px; 
+    height: 200px;
+    border-radius: 50px; 
+    background-color: var(--cor-amarela);
+    text-align: center;
+    margin-top: 120px;
+  }
+
+.conteudo-imagem {
+    margin-top: 40px;
+}
+
+.conteudo-texto {
+    margin-top: -20px;
+}
+
+.conteudo-alunos:hover {
+    background-color: var(--cor-preta);
+}
+

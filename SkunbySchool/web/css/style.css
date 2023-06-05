@@ -1,4 +1,4 @@
-/* utilidades */ 
+/* utilidades */
 @import url("./utilidades/cores.css");
 @import url("./utilidades/componentes.css");
 @import url("./utilidades/Tipografias.css");
@@ -7,11 +7,10 @@
 @import url("./global/global.css");
 
 
-/* home */ 
+/* home */
 @import url("./home/home.css");
 @import url("./home/footer.css");
 @import url("./home/header.css");
 
-
-@import url("./home/hom2etest.css");
-
+/* menu */
+@import url("./menu/menu.css");
