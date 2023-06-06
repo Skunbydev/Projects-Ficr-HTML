@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto+Serif:wght@300&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <title>SkunbySchool | ALUNOS</title>
+</head>
+
+<body id="adicao-body">
+    <header class="header-bg">
+        <div class="header container">
+            <a href="./menuprincipal.html">
+            <img src="./imgs/Logo/Logo.svg" alt="">
+            </a>
+            <nav aria-label="navegacao">
+                <ul class="header-principal font-1-p cor-branca">
+                    <li><a id="nome-nav" href="./">Luiz Felipe Santos</a><span> (FR044518)</span>
+                    </li>
+                    <li><a href="./">
+                            <span class="material-symbols-outlined" id="account">
+                                account_circle
+                            </span>
+                        </a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main aria-label="Adição de aluno">
+        <div class="alunos-bg container">
+            <div class="adicao-aluno">
+                <div class="form-container">
+                    <div class="left-container">
+                      <form>
+                        <div class="form-group">
+                          <label for="nome">Nome:</label>
+                          <input type="text" id="nome" placeholder="Insira o nome do aluno aqui">
+                        </div>
+                        <div class="form-group">
+                          <label for="cpf">CPF:</label>
+                          <input type="text" id="cpf">
+                        </div>
+                        <div class="form-group">
+                          <label for="telefone">Telefone:</label>
+                          <input type="text" id="telefone">
+                        </div>
+                        <div class="form-group">
+                          <label for="endereco">Endereço:</label>
+                          <input type="text" id="endereco">
+                        </div>
+                      </form>
+                    </div>
+                  
+                    <div class="right-container">
+                      <form>
+                        <div class="form-group">
+                          <label for="foto">Foto:</label>
+                          <input type="file" id="foto">
+                        </div>
+                        <div class="form-group">
+                          <div class="dropdown">
+                            <button class="dropdown-button">Turmas <span class="arrow-down"></span></button>
+                            <div class="dropdown-content">
+                              <a href="#" class="turma">ADS-A</a>
+                              <a href="#" class="turma">ADS-B</a>
+                              <a href="#" class="turma">ADS-C</a>
+                            </div>
+                          </div>
+                        </div>
+                        <button type="submit">Concluir</button>
+                      </form>
+                    </div>
+                  </div>
+                  
+            </div>
+
+
+        </div>
+
+    </main>

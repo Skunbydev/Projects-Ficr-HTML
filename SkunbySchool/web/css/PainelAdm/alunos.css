@@ -1,15 +1,40 @@
-#alunos-body{
+#alunos-body {
     background-color: var(--cor-cinza);
-}
-
-.alunos-bg {
+  }
+  
+  .alunos-bg {
     background-color: var(--cor-branca);
     height: auto;
     margin-top: 120px;
+    margin-bottom: 120px;
+    border-radius: 4px;
     display: flex;
+    flex-direction: column;
+
+    
+  }
+  
+  .margin-10px li {
+    margin-bottom: 52px;
+  }
+  
+.botoes-container {
+    margin-bottom: 85px;
+    justify-content: center;
+    gap: 50px;
+    display: flex;
+    font-size: 16px;
+    font-weight: bold;
 }
 
-.margin-10px li {
-    margin-bottom: 52px;
+
+@media (max-width:800px) {
+    .alunos-bg {
+        margin-top: 60px;
+        margin-bottom: 20px;
+    }
+    .botoes-container {
+        gap: 20px;
+    }
 }
 
