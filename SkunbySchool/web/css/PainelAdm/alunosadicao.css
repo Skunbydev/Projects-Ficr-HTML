@@ -1,96 +1,49 @@
-.form-container {
-    display: flex;
-    justify-content: space-between;
-  }
+#adicao-body {
+ background-color: var(--cor-cinza);
+}
 
-  .form-container .left-container {
-    width: calc(100% - 450px);
-    padding-right: 20px;
-  }
+.container-secundario {
+  display: flex;
+  align-items: flex-start;
+}
 
-  .form-container .right-container {
-    width: 450px;
-  }
+.lado-esquerdo {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
 
-  .form-group {
-    margin-bottom: 20px;
-  }
+.right-side {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
 
-  label {
-    display: block;
-    font-weight: bold;
-  }
+.input-container {
+  display: grid;
+  grid-gap: 10px;
+}
 
-  input[type="text"],
-  input[type="file"] {
-    display: block;
-    width: 390px;
-    height: 52px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
+.input-container input {
+  width: 396px;
+  height: 52px;
+  border-radius: 50px;
+  border: none;
+  background-color: var(--cor-cinza);
+  font-size: 20px;
+  text-align: center;
+}
 
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
+.image-container {
+  display: flex;
+  align-items: center;
+}
 
-  .dropdown-button {
-    position: relative;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
+.options-container {
+  margin-top: 20px;
+  display: inline-flex;
+  gap: 20px;
+}
 
-  .arrow-down {
-    position: absolute;
-    top: 50%;
-    right: 10px;
-    transform: translateY(-50%);
-    width: 0;
-    height: 0;
-    border-left: 5px solid transparent;
-    border-right: 5px solid transparent;
-    border-top: 5px solid #fff;
-  }
-
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 120px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-  }
-
-  .dropdown-content a {
-    display: block;
-    padding: 10px 16px;
-    text-decoration: none;
-    color: #000;
-  }
-
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-
-  .turma:hover {
-    background-color: #eee;
-  }
-
-  button[type="submit"] {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-
-  button[type="submit"]:hover {
-    background-color: #0056b3;
-  }
