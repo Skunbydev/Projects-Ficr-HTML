@@ -1,5 +1,5 @@
 #adicao-body {
- background-color: var(--cor-cinza);
+  background-color: var(--cor-cinza);
 }
 
 .container-secundario {
@@ -14,7 +14,8 @@
   align-items: flex-start;
 }
 
-.right-side {
+.lado-direito {
+  margin-top: 50px;
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -31,19 +32,26 @@
   height: 52px;
   border-radius: 50px;
   border: none;
-  background-color: var(--cor-cinza);
+  background-color: var(--cor-cinza3);
+  color: var(--cor-branca2);
   font-size: 20px;
   text-align: center;
 }
 
-.image-container {
+.container-imagem {
   display: flex;
   align-items: center;
 }
 
-.options-container {
+.opcoes-container {
   margin-top: 20px;
   display: inline-flex;
-  gap: 20px;
+  gap: 10px;
 }
 
+.aviso {
+  color: red;
+  font-size: 18px;
+  margin-top: 5px;
+  text-align: center;
+}
