@@ -40,60 +40,56 @@
   <main aria-label="Adição de aluno">
     <div class="alunos-bg container">
       <div class="alunos-lista">
+        <div class="input-container">
+          <label for="nome" class="font-1-pp">Nome:</label>
+          <input type="text" id="nome" placeholder="Digite o nome" maxlength="40" oninput="validarNome()" required>
+          <p id="aviso-nome" class="aviso"></p>
 
+          <label for="matricula" class="font-1-pp">Matrícula</label>
+          <input type="text" id="matricula" placeholder="Insira a matrícula" maxlength="20" oninput="validarMatricula()"
+            required>
+          <p id="aviso-matricula" class="aviso"></p>
 
-        <div class="container-secundario">
-          <div class="lado-esquerdo">
-            <div class="input-container">
-              <label for="nome" class="font-1-pp">Nome:</label>
-              <input type="text" id="nome" placeholder="Digite o nome" maxlength="40" oninput="validarNome()" required>
-              <p id="aviso-nome" class="aviso"></p>
-              
-              <label for="matricula" class="font-1-pp">Matrícula</label>
-              <input type="text" id="matricula" placeholder="Insira a matrícula" maxlength="20" oninput="validarMatricula()" required>
-              <p id="aviso-matricula" class="aviso"></p>
-              
-              <label for="cpf" class="font-1-pp">CPF:</label>
-              <input type="text" id="cpf" placeholder="Digite o CPF" oninput="validarCPF()" required>
-              <p id="aviso-cpf" class="aviso"></p>
-              
-              <label for="telefone" class="font-1-pp">Telefone:</label>
-              <input type="text" id="telefone" placeholder="Digite o telefone" oninput="validarTelefone()" required>
-              <p id="aviso-telefone" class="aviso"></p>
-              
-              <label for="cep" class="font-1-pp">Cep:</label>
-              <input type="text" id="cep" placeholder="Digite o cep" oninput="validarCep()" required>
-              <p id="aviso-cep" class="aviso"></p>
-              
-              <label for="endereco" class="font-1-pp">Rua</label>
-              <input type="text" id="rua" placeholder="Digite a rua" oninput="validarRua()" required>
-              <p id="aviso-rua" class="aviso"></p>
-              
-              <label for="numero" class="font-1-pp">Número</label>
-              <input type="text" id="numero" placeholder="Insira o número" oninput="validarNumero()" required>
-              <p id="aviso-numero" class="aviso"></p>
-            </div>
+          <label for="cpf" class="font-1-pp">CPF:</label>
+          <input type="text" id="cpf" placeholder="Digite o CPF" oninput="validarCPF()" required>
+          <p id="aviso-cpf" class="aviso"></p>
+
+          <label for="telefone" class="font-1-pp">Telefone:</label>
+          <input type="text" id="telefone" placeholder="Digite o telefone" oninput="validarTelefone()" required>
+          <p id="aviso-telefone" class="aviso"></p>
+        </div>
+        <div class="input-cep">
+          <div>
+            <label for="cep" class="font-1-pp">Cep:</label>
+            <input type="text" id="cep" placeholder="Digite o cep" oninput="validarCep()" required>
+            <p id="aviso-cep" class="aviso"></p>
           </div>
-          <div class="lado-direito">
-            <div class="container-imagem">
-              <img src="./imgs/Icons/FotoAluno.png" alt="Foto do aluno">
-              
 
-            </div>
-            <div class="opcoes-container">
+          <div>
+            <label for="bairro" class="font-1-pp">Bairro:</label>
+            <input type="text" id="bairro" placeholder="Digite o bairro" oninput="validarBairro()" required>
+            <p id="aviso-bairro" class="aviso"></p>
+          </div>
 
-              <label for="turma">Turma:</label>
-              <select id="turma">
-                <option value="turma1">Turma ADS-A</option>
-                <option value="turma2">Turma ADS-B</option>
-                <option value="turma3">Turma ADS-C</option>
-              </select>
-            </div>
-            <a href="./" class="botao">cadastro concluído</a>
+          <div>
+            <label for="endereco" class="font-1-pp">Rua:</label>
+            <input type="text" id="rua" placeholder="Digite a rua" oninput="validarRua()" required>
+            <p id="aviso-rua" class="aviso"></p>
+          </div>
+
+          <div>
+            <label for="numero" class="font-1-pp">Número:</label>
+            <input type="text" id="numero" placeholder="Insira o número" oninput="validarNumero()" required>
+            <p id="aviso-numero" class="aviso"></p>
           </div>
         </div>
-
+        <div class="botao-escondido">
+          <a href="/" class="font-1-pp botao" onclick="verificarCampos()" id="concluir">concluir</a>
+          <a href="./alunos.html" class="font-1-pp botao">cancelar</a>
+        </div>
       </div>
+    </div>
+    </div>
     </div>
   </main>
   <script src="./script.js"></script>

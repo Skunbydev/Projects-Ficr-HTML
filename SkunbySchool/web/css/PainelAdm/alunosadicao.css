@@ -1,33 +1,20 @@
 #adicao-body {
   background-color: var(--cor-cinza);
 }
-
-.container-secundario {
-  display: flex;
-  align-items: flex-start;
+.alunos-lista {
+  margin-top: 40px;
 }
 
-.lado-esquerdo {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
 
-.lado-direito {
-  margin-top: 50px;
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-}
 
 .input-container {
   display: grid;
+  justify-items: center;
   grid-gap: 10px;
+  grid-template-columns: 1fr;
 }
 
-.input-container input {
+.input-container input, .input-cep input {
   width: 396px;
   height: 52px;
   border-radius: 50px;
@@ -38,20 +25,44 @@
   text-align: center;
 }
 
-.container-imagem {
-  display: flex;
-  align-items: center;
-}
 
-.opcoes-container {
-  margin-top: 20px;
-  display: inline-flex;
-  gap: 10px;
-}
 
 .aviso {
   color: red;
   font-size: 18px;
   margin-top: 5px;
   text-align: center;
+}
+
+
+.input-cep {
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+  justify-content: center;
+}
+
+.input-cep div {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.input-rua {
+  flex-basis: 100%;
+}
+
+.input-rua input {
+  width: 100%;
+}
+
+.botao-escondido {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 30px;
+}
+.aviso {
+  margin-top: 5px;
 }
