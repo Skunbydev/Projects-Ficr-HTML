@@ -1,0 +1,37 @@
+#notas-body {
+    background-color: var(--cor-cinza);
+}
+
+
+.notas-bg {
+    margin-top: 120px;
+    background-color: var(--cor-branca);
+}
+
+.input-nota {
+    text-align: center;
+    display: block;
+}
+
+.input-nota input {
+    margin-top: 40px;
+    width: 440px;
+    height: 56px;
+    border-radius: 50px;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+    background-color: var(--cor-cinza2);
+}
+
+.aluno-matricula {
+    margin-top: 60px;
+}
+
+.retangulo {
+    height: 2px;
+    background-color: var(--cor-cinza); 
+    width: 92%; 
+    display: inline-block;
+  }
+  

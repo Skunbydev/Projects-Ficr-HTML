@@ -151,7 +151,7 @@ function validarCep() {
 
     input.value = cep.substring(0, 9);
 
-    // Realizar a busca do CEP e preencher bairro e rua
+    
     buscarEndereco(cep);
 
     return true;

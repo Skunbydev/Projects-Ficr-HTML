@@ -62,8 +62,31 @@
   text-align: center;
   justify-content: center;
   gap: 30px;
+  margin-bottom: 60px;
 }
 .aviso {
   margin-top: 5px;
 }
 
+@media (max-width:800px) {
+  .alunos-bg  {
+    margin: 20px 20px;
+  }
+}
+
+@media (max-width:500px) {
+  .botao-escondido {
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+    
+  }
+  .input-container, .input-cep {
+     font-size: 8px;
+     text-align: center;
+  }
+  .input-container input, .input-cep input {
+    width: 100%;
+  }
+}
