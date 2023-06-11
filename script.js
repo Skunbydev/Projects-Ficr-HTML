@@ -247,6 +247,7 @@ function verificarCampos(event) {
         numeroValido &&
         bairroValido
     ) {
+        alert("Cadastro realizado com sucesso!")
         window.location.href = "alunos.html";
     } else {
         alert("Por favor, preencha todos os campos corretamente.");

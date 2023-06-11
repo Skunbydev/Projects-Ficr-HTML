@@ -18,7 +18,7 @@
 </head>
 
 <body id="notas-body">
-    
+
     <header class="header-bg">
         <div class="header container">
             <a href="./menuprincipal.html">
@@ -41,22 +41,134 @@
 
     <main aria-label="Adicao-nota">
         <div class="notas-bg container">
-           
+
             <div class="input-nota">
-                
+
                 <label for="SearchBar"></label>
                 <input type="text" id="barra-pesquisa" placeholder="insira o nome do aluno">
-                
+
             </div>
             <div class="aluno-nota">
                 <div class="aluno-matricula">
                     <h1 class="font-1-pp">Luiz Felipe Santos de Lima Alves:<span>(FR044518)</span></h1>
                     <h1 class="font-1-pp">NOTAS:</h1>
                 </div>
-                
+
 
             </div>
-            <div class="retangulo"></div> 
-            <div class="">teste</div>
+            <div class="retangulo"></div>
+
+            <div class="materia-nota" id="materia-nota-1">
+
+                <div class="nota">
+                    <p class="font-1-pp">Residência Tecnológica:</p>
+                </div>
+                <div class="nota nota-v1">
+                    <p class="font-1-pp">V1</p>
+                    <input type="text" class="nota-input hide" id="v1-input">
+                </div>
+                <div class="nota nota-v2">
+                    <p class="font-1-pp">V2</p>
+                    <input type="text" class="nota-input hide" id="v2-input">
+                </div>
+                <div class="nota nota-v3 font-1-p">
+                    <p class="font-1-pp">V3</p>
+                    <input type="text" class="nota-input hide" id="v3-input">
+                </div>
+                <div class="nota-botao">
+                    <a class="botao-nota" href="#"
+                        onclick="abrirDialog(document.getElementById('materia-nota-1'))">Adicionar Nota</a>
+                </div>
+            </div>
+
+            <div class="materia-nota" id="materia-nota-2">
+                <div class="nota">
+                    <p class="font-1-pp">Lógica e Algoritmos:</p>
+                </div>
+                <div class="nota nota-v1">
+                    <p class="font-1-pp">V1</p>
+                    <input type="text" class="nota-input hide" id="v1-input">
+                </div>
+                <div class="nota nota-v2">
+                    <p class="font-1-pp">V2</p>
+                    <input type="text" class="nota-input hide" id="v2-input">
+                </div>
+                <div class="nota nota-v3 font-1-p">
+                    <p class="font-1-pp">V3</p>
+                    <input type="text" class="nota-input hide" id="v3-input">
+                </div>
+                <div class="nota-botao">
+                    <a class="botao-nota" href="#"
+                        onclick="abrirDialog(document.getElementById('materia-nota-2'))">Adicionar Nota</a>
+                </div>
+            </div>
+
+            <div class="materia-nota" id="materia-nota-3">
+                <div class="nota">
+                    <p class="font-1-pp">Introdução a banco de dados:</p>
+                </div>
+                <div class="nota nota-v1">
+                    <p class="font-1-pp">V1</p>
+                    <input type="text" class="nota-input hide" id="v1-input">
+                </div>
+                <div class="nota nota-v2">
+                    <p class="font-1-pp">V2</p>
+                    <input type="text" class="nota-input hide" id="v2-input">
+                </div>
+                <div class="nota nota-v3 font-1-p">
+                    <p class="font-1-pp">V3</p>
+                    <input type="text" class="nota-input hide" id="v3-input">
+                </div>
+                <div class="nota-botao">
+                    <a class="botao-nota" href="#"
+                        onclick="abrirDialog(document.getElementById('materia-nota-3'))">Adicionar Nota</a>
+                </div>
+            </div>
+
+            <div class="materia-nota" id="materia-nota-4">
+                <div class="nota">
+                    <p class="font-1-pp">Linguagem de Marcação e Formatação:</p>
+                </div>
+                <div class="nota nota-v1">
+                    <p class="font-1-pp">V1</p>
+                    <input type="text" class="nota-input hide" id="v1-input">
+                </div>
+                <div class="nota nota-v2">
+                    <p class="font-1-pp">V2</p>
+                    <input type="text" class="nota-input hide" id="v2-input">
+                </div>
+                <div class="nota nota-v3 font-1-p">
+                    <p class="font-1-pp">V3</p>
+                    <input type="text" class="nota-input hide" id="v3-input">
+                </div>
+                <div class="nota-botao">
+                    <a class="botao-nota" href="#"
+                        onclick="abrirDialog(document.getElementById('materia-nota-4'))">Adicionar Nota</a>
+                </div>
+            </div>
+            <div class="concluir-button">
+                <a class="botao-nota" href="/SkunbySchool/web/menuprincipal.html">Concluir</a>
+            </div>
         </div>
+
+        </div>
+
+        <div id="dialog" class="nota-dialog">
+            <label for="v-select">Escolha qual avaliação deseja adicionar nota:</label>
+            <select id="v-select">
+                <option value="v1">V1</option>
+                <option value="v2">V2</option>
+                <option value="v3">V3</option>
+            </select>
+            <input type="text" class="nota-input" id="dialog-input">
+            <button id="adicionar-button">Adicionar</button>
+            <button id="cancelar-button">Cancelar</button>
+        </div>
+
+
+        </div>
+
+
+
+        <script src="./script/nota.js"></script>
     </main>
