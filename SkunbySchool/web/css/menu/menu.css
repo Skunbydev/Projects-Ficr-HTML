@@ -119,8 +119,14 @@
     margin-top: -20px;
 }
 
-@media (max-width:800px) {
+
+
+
+
+
+@media (max-width:1175px) {
     .conteudo-menu {
+        margin-top: 40px;
         grid-template-columns: 1fr;
         justify-items: center;
         justify-content: center;
@@ -130,6 +136,7 @@
         grid-template-columns: 1fr;
         justify-items: center;
         justify-content: center;
+        margin-bottom: 40px;
     }
 }
 
@@ -139,7 +146,7 @@
     }
 
     .conteudo-amarelo {
-        width: 300px;
+        width: 200px;
         height: 150px;
         border-radius: 25px;
     }
@@ -153,11 +160,11 @@
     }
 
     .conteudo-menu h1 {
-        font-size: 24px;
+        font-size: 18px;
     }
 
     .conteudo-preto {
-        width: 300px;
+        width: 200px;
         height: 150px;
         border-radius: 25px;
     }
@@ -167,10 +174,11 @@
     }
 
     .conteudo-secundario-menu span {
-        font-size: 60px;
+        font-size: 40px;
     }
 
     .conteudo-secundario-menu h1 {
-        font-size: 24px;
+        font-size: 18px;
     }
 }
+
