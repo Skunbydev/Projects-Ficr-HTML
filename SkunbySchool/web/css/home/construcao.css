@@ -1,0 +1,16 @@
+#construcao {
+    background-color: #F6F6F6;
+}
+
+.imagem-construcao {
+    margin-top: -20px;
+    justify-content: center;
+    display: flex;
+}
+
+
+@media (max-width:800px) {
+    .imagem-construcao {
+        object-fit: cover;
+    }
+}
